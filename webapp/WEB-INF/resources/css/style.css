@@ -1,0 +1,115 @@
+@charset "UTF-8";
+*{margin:0}
+.main{
+	width:400px; margin:0 auto;	
+}
+
+.title{
+	text-align:center;
+	font-size:25pt;
+	color:#444;
+	/*x y spread color*/
+	text-shadow:3px 3px 5px gray;
+	margin-top:20px;
+}
+
+button.big{
+	display:block;
+	width:150px;
+	height:30px;
+	margin:0 auto;
+	background-color: silver;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px gray;
+}
+
+button.small{
+	display:inline-block;
+	width:45%;
+	height:30px;
+	margin:0 auto;
+	background-color: teal;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+hr{
+	margin: 10px 0;
+}
+
+.comment{
+	height: 200px;
+	box-shadow: 5px 5px 10px teal;
+	background: #eee;
+	margin: 20px 0;
+}
+
+.comment > div{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+.grid_3_7{
+	display:grid;
+	grid-template-columns: 30% 70%;
+}
+
+.msg{
+	min-height: 80px;
+	height: auto;
+}
+
+.text_center{
+	text-align: center;
+}
+
+.add_table{
+	width:100%;
+}
+
+.add_table th, .add_table td{
+	padding: 10px;
+	color: #444;
+	text-shadow: 2px 2px 3px gray;
+}
+
+.add_table textarea{
+	width: 100%;
+	height: 100px;
+}
+
+.search{
+	margin-top: 20px;
+	text-align: right;
+	height: 25px;
+}
+
+.search select{
+	height: 100%;
+}
+
+.search input[type="text"]{
+	height: 18px;
+	width: 70px;
+}
+
+.error{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
